@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+ font-family: 'Myriad Pro';
+ src: url('MyriadPro-Light.eot');
+ src: url('MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Light.woff') format('woff'), url('MyriadPro-Light.ttf') format('truetype'), url('myriadprolight.svg#amatic_scregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'MyriadPro Black';
+ src: url('MyriadPro-Black.eot');
+ src: url('MyriadPro-Black.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Black.woff') format('woff'), url('MyriadPro-Black.ttf') format('truetype'), url('MyriadPro-Black.svg#amatic_scregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+body {
+	background: #5cb6fe url(../images/body_bg.jpg) no-repeat center top;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size:12px;
+	line-height:16px;
+	color:#ffffff;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+a {
+	color:#ebebeb;
+	text-decoration:none;
+}
+#header_main {
+	width:100%;
+	margin: 0 auto;
+	height:175px;
+	line-height:175px;
+	position:relative;
+}
+.logo {
+	width:342px;
+	height:105px;
+	float:left;
+	position:absolute;
+	top:33px;
+	left:50px;
+}
+.social_icon {
+	float:right;
+	position:absolute;
+	right:50px;
+}
+.social_icon ul {
+	float:left;
+}
+.social_icon li {
+	float:left;
+	margin: 0 0 0 7px;
+}
+#wrapper_main {
+	width:940px;
+	position:relative;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.content_wrapper {
+	width:940px;
+	float:left;
+	position:relative;
+	margin-top:40px;
+}
+.content_left {
+	width:590px;
+	float:left;
+	position:relative;
+}
+.content_left .banner {
+	width:590px;
+	height:270px;
+	overflow:hidden;
+	float:left;
+	position:relative;
+}
+.content_left .banner ul {
+	width:590px;
+	float:left;
+	position:relative;
+}
+.content_left .banner .banner_info {
+	float:left;
+	position:absolute;
+	width:450px;
+	top:50px;
+	left:20px;
+}
+.content_left .banner .banner_info_button {
+	float:left;
+	margin: 15px 0 0 0;
+}
+.content_left .banner .banner_info .banner-info-title {
+	font-family: 'MyriadPro Black';
+	font-size:50px;
+	margin-bottom:10px;
+	width:100%;
+	font-weight:bold;
+	font-style:italic;
+	float:left;
+}
+.content_left .banner .banner_info .banner-info-caption {
+	font-family:"Myriad Pro";
+	font-size:18px;
+	margin-bottom:10px;
+	color:#000000;
+	line-height:22px;
+	font-style:normal;
+	float:left;
+}
+.thumnail_images {
+	float:left;
+	width:590px;
+	margin: 10px 0 0 0;
+}
+.thumnail_images ul {
+	width:590px;
+	float:left;
+}
+.thumnail_images ul li {
+	width:140px;
+	float:left;
+	margin: 0 10px 0 0;
+}
+.thumnail_images ul li.thumnail_images_first {
+	margin: 0 10px 0 0;
+}
+.thumnail_images ul li.thumnail_images_last {
+	margin: 0 0 0 0;
+}
+.testimonial_module {
+	width:445px;
+	float:left;
+	background:url(../images/testimonial_bg.png) no-repeat top left;
+	padding: 25px 65px 0 80px;
+	margin:10px 0 0 0;
+	color:#272727;
+	font-size:12px;
+	line-height:16px;
+	font-style:italic;
+	height:115px;
+}
+.testimonial_module .kolon {
+	font-family:"Times New Roman", Times, serif;
+	font-size:112px;
+	line-height:116px;
+}
+.testimonial_module .person_name {
+	color:#005887;
+	text-align:right;
+	width: 100%;
+	float:left;
+}
+.about_us {
+	background:#0e579a;
+	width:548px;
+	padding:20px;
+	float:left;
+	margin: 10px 0 0 0;
+	font-size:12px;
+	line-height: 16px;
+	float:left;
+	color:#e8e8e8;
+	border: 1px #95ceff solid;
+}
+.about_us h2 {
+	padding:0;
+	font-family:"Myriad Pro";
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	color: #ff7400;
+	margin:0 0 10px 0;
+	font-style:normal;
+}
+.inner_page_content {
+	background:#0e579a;
+	width:548px;
+	padding:20px;
+	float:left;
+	font-size:12px;
+	line-height: 16px;
+	float:left;
+	color:#e8e8e8;
+	border: 1px #95ceff solid;
+	min-height:665px;
+}
+.inner_page_content h2 {
+	padding:0;
+	font-family:"Myriad Pro";
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	color: #ff7400;
+	margin:0 0 10px 0;
+	font-style:normal;
+}
+.inner_page_content p
+{
+	margin: 0 0 10px 0;
+}
+.inner_page_content ul
+{
+	margin:0;
+}
+.inner_page_content li
+{
+	list-style:disc;
+	margin: 0 0 10px 15px;
+}
+.content_right {
+	width:300px;
+	float:right;
+}
+.loggedin_module {
+	background:url(../images/login_bg.png) repeat-y top left;
+	width:298px;
+	float:left;
+	border-top: 1px #95ceff solid;
+	border-bottom: 1px #95ceff solid;
+}
+.loggedin_module_inner {
+	background: url(../images/loggedin_bottom_img.png) no-repeat bottom right;
+	width:278px;
+	float:left;
+	padding: 0 10px 10px 0;
+}
+.loggedin_module h2 {
+	padding:0;
+	margin:0;
+	font-family:"Myriad Pro";
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	color: #ff7400;
+	margin:20px 0 0 20px;
+}
+#form-login {
+	width:258px;
+	float:left;
+	padding:20px;
+	float:left;
+}
+#form-login .inputbox, #form-login input[type="password"] {
+	font-size:12px;
+	font-style:italic;
+	color:#005887;
+	padding:5px;
+	background:#e5e5e5;
+	margin-bottom:20px;
+	border: #0a5278 1px solid;
+	width:200px;
+}
+#form-login input[type="submit"] {
+	background:url(../images/login_button.png) top left;
+	border:0;
+	width:90px;
+	height:30px;
+	overflow:hidden;
+	text-indent:-10000px;
+	cursor:pointer;
+}
+#form-login li {
+	font-size:12px;
+	line-height:16px;
+	font-style:italic;
+	color:#ebebeb;
+	margin: 5px 0;
+}
+.contact_module_right {
+	width:258px;
+	float:right;
+	background:#008823;
+	padding:15px 20px;
+	border: 1px #95ceff solid;
+	margin: 10px 0 0 0;
+	font-size:12px;
+	line-height:16px;
+	font-style:italic;
+}
+.contact_module_right h2 {
+	padding:0;
+	font-family:"Myriad Pro";
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	color: #ff7400;
+	margin:0 0 10px 0;
+	font-style:normal;
+}
+.l0go_module_right {
+	width:278px;
+	float:right;
+	background:#ff7400;
+	padding:20px 10px;
+	border: 1px #95ceff solid;
+	margin: 10px 0 0 0;
+}
+.l0go_module_right img {
+	padding:10px 0 10px 10px;
+}
+.l0go_module_right h2 {
+	padding:0;
+	font-family:"Myriad Pro";
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	color: #ffffff;
+	margin:0 0 10px 0;
+	font-style:normal;
+}
+.footer_main {
+	width:100%;
+	float:left;
+	text-align:left;
+	font-size:14px;
+	line-height:18px;
+	margin:25px 0;
+	font-style:italic;
+}
